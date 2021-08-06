@@ -16,9 +16,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	/* margin: 0;
+	padding: 0; */
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,8 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+/* General Styles */
+
 * {
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 html, body {
@@ -70,6 +73,46 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+/* Header Styles */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 2% 0;
+}
+
+header nav{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    align-items:baseline;
+    padding:1vh;
+}
+.logo{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width:60%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topimg{
+    display:flex;
+    justify-content: center;
+    margin:3%;
+}
+/* Main Section of the Home Page */
 
 .top-content {
     display: flex;
@@ -104,14 +147,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1 {
+	background: teal;
+}
+.box2 {
+	background: gold;
+}
+.box3 {
+	background: cadetblue;
+}
+.box4 {
+	background: coral;
+}
+.box5 {
+	background: crimson;
+}
+.box6 {
+	background: forestgreen;
+}
+.box7 {
+	background: darkorchid;
+}
+.box8 {
+	background: hotpink;
+}
+.box9 {
+	background: indigo;
+}
+.box10 {
+	background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +196,44 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*About Page Styles */
+
+.aboutimg{
+    display:flex;
+    justify-content: center;
+    margin:3%;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+.top-content .about-container {
+    display:flex;
+    flex-direction:column;
+    padding-left: 2%;
+    margin-left:1%;
+}
+.middle-about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.middle-about .middle{
+    padding: 0 1%;
+    padding-bottom: 4%;
+    width:48%;
+}
+.border{
+    border-bottom: 1px dashed black;
+    padding-top: 7%;
+}
+
+button{
+    padding: 1vh;
+    border-radius:10px;
+    }
+
+/* Footer Styles */
 
 footer {
     width: 100%;
