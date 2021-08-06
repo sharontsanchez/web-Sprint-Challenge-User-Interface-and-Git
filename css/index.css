@@ -51,7 +51,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html, body {
@@ -197,7 +197,7 @@ header nav{
     padding-right: 0;
 }
 
-/* About Page Styles */
+/*About Page Styles */
 
 .aboutimg{
     display:flex;
@@ -215,25 +215,17 @@ body{
     margin-left:1%;
 }
 .middle-about{
-    margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.middle-about h2{
-    padding: 0 2%;
-    margin-bottom: 0;
-    display: flex;
-    flex-wrap: nowrap;
-   
-}
 .middle-about .middle{
-    padding: 2%;
-    margin-bottom: 20px;
+    padding: 0 1%;
+    padding-bottom: 4%;
     width:48%;
 }
-.middle{
+.border{
     border-bottom: 1px dashed black;
+    padding-top: 7%;
 }
 
 button{
