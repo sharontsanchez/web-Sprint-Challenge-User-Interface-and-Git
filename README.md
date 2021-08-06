@@ -34,13 +34,65 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+HTML is a hyper text markup language. The language that our internet browser reads (google chrome, firefox etc..). 
+Semantic HTML is a type of HTML which gives meaning to your content. 
+It provides accessibility, improves SEO (search engine optimization), help other developes to read other people's tags. 
+A few examples are <header> element which is a container for introductory content like the heading or titles.<h1> through <h6> which are headings that goes in order of importance just like in an essay where there is an introduction, body, conclusion and references.
+<section> element tag helps to define a section in a document, <nav> element will contain a set of navigation links that takes you to mutliple links or websites or images throughout your webpage, <address>for when you have address on the page and <footer> elements contains the footer information on the page like copyrights, contact information.
+Semantic HTML elements make it easier to read a website, provides accessibility to screen readers and will lead to consistent code. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block are elements that generally encompass inline elements. Block elements break onto a new line and arent used for doing things within a line of text. Block elements accept a width which why is we use them to lay out our page. Some examples of block elements are <div>, <h1> and <p>.
+Inline elements can be nested inside of block elements. They can be inserted inside of other elements and not break into a new line. Some examples of inline elements are <a>, <em>, <strong>, and <span>.
+
+If a box has an outer display type of block, it will behave in the following ways:
+
+The box will break onto a new line.
+The box will extend in the inline direction to fill the space available in its container. In most cases this means that the box will become as wide as its container, filling up 100% of the space available.
+The width and height properties are respected.
+Padding, margin and border will cause other elements to be pushed away from the box
+Some HTML elements, such as <h1> and <p>, use block as their outer display type by default.
+
+If a box has an outer display type of inline, then:
+
+The box will not break onto a new line.
+The width and height properties will not apply.
+Vertical padding, margins, and borders will apply but will not cause other inline boxes to move away from the box.
+Horizontal padding, margins, and borders will apply and will cause other inline boxes to move away from the box.
+Some HTML elements, such as <a>, <span>, <em> and <strong> use inline as their outer display type by default.
+
 
 3. What are the 4 areas of the box model?
 
+Box model places all HTML elements into boxes. 
+4 area of the box model are:
+Content box: The area where your content is displayed, which can be sized using properties like width and height.
+Padding box: The padding sits around the content as white space; its size can be controlled using padding and related properties.
+Border box: The border box wraps the content and any padding. Its size and style can be controlled using border and related properties.
+Margin box: The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements. Its size can be controlled using margin and related properties.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+when we use the property: "align-items" with the value "center"; all flex items are placed at the center of the cross axis. The cross axis is perpendicular to the main axis.
+
+
 5. Explain why git is valuable to a team of developers.
+
+Git is an open source distributed version control system. 
+It maintains a history of all changes made to the code. The changes are stored in a special database called repository. 
+The git is valuable to a team of developers because it keeps track of the changes and updates.
+It enables us to see who made which changes. It also provides when and why a change was made. 
+It provides developers with a systematic way of doing the project together; allowing the developers to focus on their section of the project. 
+It allows developers to collaborate when working together.
+
+The five advantages of using Git are:
+
+Performance: Git performs very strongly and reliably when compared to other version control systems. New code changes can be easily committed, version branches can be effortlessly compared and merged, and code can also be optimized to perform better.
+Security: Git is designed specially to maintain the integrity of source code. 
+Flexibility: A key design objective of Git is the kind of flexibility it offers to support several kinds of nonlinear development workflows and its efficiency in handling both small scale and large scale projects as well as protocols. It is uniquely designed to support tagging and branching operations and store each and every activity carried out by the user as an integral part of “change” history. 
+Wide acceptance: Git offers the type of performance, functionality, security, and flexibility that most developers and teams need to develop their projects. 
+Quality open source project: Git is a widely supported open source project with over ten years of operational history. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
