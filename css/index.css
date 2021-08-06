@@ -46,11 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* General Styles */
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html, body {
@@ -77,7 +78,9 @@ a{
     text-decoration: none;
     color: #4f4f4f;
 }
+
 /* Header Styles */
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -109,10 +112,7 @@ header nav{
     justify-content: center;
     margin:3%;
 }
-
-/* .logo img{
-    width:60%;
-} */
+/* Main Section of the Home Page */
 
 .top-content {
     display: flex;
@@ -197,24 +197,6 @@ header nav{
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
 /* About Page Styles */
 
 .aboutimg{
@@ -222,7 +204,7 @@ footer nav a {
     justify-content: center;
     margin:3%;
 }
-.container about-page {
+body{
     width: 800px;
     margin: 0 auto;
 }
@@ -243,12 +225,39 @@ footer nav a {
     margin-bottom: 0;
     display: flex;
     flex-wrap: nowrap;
+   
 }
 .middle-about .middle{
+    padding: 2%;
     margin-bottom: 20px;
+    width:48%;
+}
+.middle{
     border-bottom: 1px dashed black;
 }
+
 button{
     padding: 1vh;
     border-radius:10px;
     }
+
+/* Footer Styles */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
